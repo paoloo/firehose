@@ -28,7 +28,7 @@ Usage metrics are generated on Cloudwatch.
 ## test
 
 ```
-$ aws firehose put-record --delivery-stream-name analytics-bi-qa1 --record '{"Data":"{\"app\":\"paolo-api\",\"event\":\"firehose_created\",\"version\":1,\"data\":{\"hello forte\"}}"}
+$ aws firehose put-record --delivery-stream-name analytics-bi-qa1 --record '{"Data":"{\"app\":\"paolo-api\",\"event\":\"firehose_created\",\"version\":1,\"data\":{\"hello world\"}}"}
 ```
 
 should return something like:
